@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 // Ruta inicial que muestra una cadena de texto
 app.get('/', (req, res) => {
-  res.send('Hola — estos cambios son de la rama secundaria');
+  res.send('Hola — esta es la ruta inicial del backend.');
 });
 
 app.listen(port, () => {
